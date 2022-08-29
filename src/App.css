@@ -1,0 +1,41 @@
+.App {
+padding: 180px;}
+
+.card {
+  width: 500px;
+  height: fit-content;
+  padding:20px;
+  margin:0 auto;
+  background: white;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.8);
+}
+
+.card h1 {
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  text-align:justify;
+}
+
+.card h1 i {
+  font-size: 3rem;
+}
+
+.card h2 {
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: right;
+}
+
+.btn {
+  display: flex;
+  justify-content: right;
+}
+
+.img2 {
+  font-size: 1rem;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+}  
